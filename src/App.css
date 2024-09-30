@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+.Nav-font {
+  /* font-family: "Poppins", sans-serif;*/
+  font-family: "Rubik", sans-serif;
+
+  font-weight: 100;
+  font-style: normal;
+}
+.Nav-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.bg-color{
+  background-color: 
+  #ffffff;
+
+}
+.Brand{
+  color: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Font-nav{
+  font-size: small;
+}
+ .btn-1{
+  border-color: #FF6000;
+  color: #FF6000;
+}
+.btn-2{
+  background-color: #FF6000;
+  color: #000000;
+}
+.Brand-2{
+  color: #FF6000;
+}
+.card{
+  background-color: #000000;
+}
+.parag{
+  text-align: justify;
+  text-justify: inter-word;
+  color: #f1e7e7;
+}
+.btn-2:hover{
+  border-color: #FF6000;
+  color: #FF6000;
+
+}
+.btn-1:hover{
+  color: #ffffff;
+  background-color: #FF6000;
+}
+.skill:hover{
+    color: #FF6000;
+    cursor: default;
+}
+.Brand:hover{
+  
+  color: #FF6000;
+}
+.Brand:focus{
+  color: #FF6000;
+}
+.links{
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Custom class to set the column width to roughly 2.5 columns (5 per row) */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
